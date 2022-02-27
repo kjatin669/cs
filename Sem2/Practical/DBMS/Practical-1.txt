@@ -1,0 +1,71 @@
+# Practical 1
+
+# Installation of MySQL
+
+Installing MySQL Installer:
+
+1. Search "MySQL Community Server Download" in Google Chrome
+2. Go to "Download MySQL Community Server" in results
+    [link: "https://dev.mysql.com/downloads/mysql"]
+3. Under Recommended Download", Click "Go to Download Page" button
+4. Download "Windows (x86, 32-bit), MSI Installer" [Not Web-Based] using download button right to the filename
+    [FileName: mysql-installer-community-version.msi]
+5. On Next Page, Click on "No thanks, Just start my Download".
+6. The download will start and [Installer File] will saved in Download Folder.
+
+Installing MySQL Software:
+
+1. Page: Choosing a Setup Type : 
+    Check "Full", 
+    Click "Next"
+2. Page: Check Requirements : 
+    Click on "Next"
+    A Dialog box appear [One or more product requirements have not been satisfied ] 
+    Click "YES"
+    Click "Execute"
+[Installation Started]
+3. On completion 
+    Click "Next"
+4. Page: Product Configuration 
+    Click "Next"
+5. Page: Type and Networking Page:
+    Do the following settings:
+        Server Configuration Type
+        Config Type: Development Computer
+        Connectivity:
+        Check TCP/IP
+        Port : 3306
+    Click "Next"
+6. Page: Authentication Method Page:
+    Check Radio "Use Strong PAssword Encryption for Authentication (RECOMMENDED)
+    Click "Next"
+7. Page: Accounts and Roles Page, 
+    Under Root Account Password 
+        MySQL Root Password : root
+        Repeat Password : root
+8. Page: Windows Service PAge
+    Leave all as it is.
+    Click Next
+9. Page: Appply Configuration Page 
+    Click "Execute"
+[Configuraion PRocess]
+10. After Configuration is Finished 
+    Click "Finish"
+11. Page: Product Config Page 
+    Click "Next"
+12. Page: MYSQL Router Configuration page 
+    Leave all as it is 
+    Click "Finish"
+13. Page: Product configueration page 
+    Click "Next"
+14. Page: Connect to Server Page :
+    Password : Root
+    Click "Check"
+    When status Running change to Connection Succedd 
+    Click "Next"
+15. Page: Apply configuration page 
+    Click "Execute"
+16. Page: Product OCnfiguration Page 
+    Click "Next"
+17. Page: Installation Complete
+    Click "Finish"
