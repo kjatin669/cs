@@ -1,7 +1,7 @@
 # OOPS
 	* Object Oriented Programming with C++
 	* Written in : C++
-	* [Notes](https://github.com/kjatin669/cs/tree/master/Sem2/Practical/OOPS#notes)
+	* [Notes] (https://github.com/kjatin669/cs/tree/master/Sem2/Practical/OOPS#notes)
 
 ## Practical List:
 	0.01. Hello World
