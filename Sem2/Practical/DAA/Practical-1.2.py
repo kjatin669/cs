@@ -10,7 +10,7 @@ for i in range(0, eleCount):
     temp = int(input("> "))
     array.append(temp)
     countOdd = 0
-    countTemp = 0
+    countEven = 0
 
 for i in range(0, eleCount):
     if (array[i]%2 == 1):

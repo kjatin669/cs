@@ -11,7 +11,7 @@ def getMin(array, n):
 def getMax(array, n):
     resMax = array[0]
     for i in range(1, n):
-        resMax = min(array[i], resMax)
+        resMax = max(array[i], resMax)
     return resMax
 
 array = [4, 45, 32, 42, 94, 21, 43, 11]

@@ -15,20 +15,20 @@ Installing MySQL Installer:
 
 Installing MySQL Software:
 
-1. Page: Choosing a Setup Type : 
+1. Page: Choosing a Setup Type, 
     Check "Full", 
     Click "Next"
-2. Page: Check Requirements : 
+2. Page: Check Requirements,
     Click on "Next"
     A Dialog box appear [One or more product requirements have not been satisfied ] 
-    Click "YES"
+    Click "Yes"
     Click "Execute"
 [Installation Started]
-3. On completion 
+3. On completion,
     Click "Next"
-4. Page: Product Configuration 
+4. Page: Product Configuration, 
     Click "Next"
-5. Page: Type and Networking Page:
+5. Page: Type and Networking,
     Do the following settings:
         Server Configuration Type
         Config Type: Development Computer
@@ -36,36 +36,36 @@ Installing MySQL Software:
         Check TCP/IP
         Port : 3306
     Click "Next"
-6. Page: Authentication Method Page:
-    Check Radio "Use Strong PAssword Encryption for Authentication (RECOMMENDED)
+6. Page: Authentication Method,
+    Check Radio "Use Strong Password Encryption for Authentication (RECOMMENDED)
     Click "Next"
-7. Page: Accounts and Roles Page, 
+7. Page: Accounts and Roles, 
     Under Root Account Password 
         MySQL Root Password : root
         Repeat Password : root
-8. Page: Windows Service PAge
+8. Page: Windows Service,
     Leave all as it is.
     Click Next
-9. Page: Appply Configuration Page 
+9. Page: Apply Configuration, 
     Click "Execute"
-[Configuraion PRocess]
-10. After Configuration is Finished 
+[Configuration Process]
+10. After Configuration is Finished, 
     Click "Finish"
-11. Page: Product Config Page 
+11. Page: Product Config,
     Click "Next"
-12. Page: MYSQL Router Configuration page 
+12. Page: MYSQL Router Configuration,
     Leave all as it is 
     Click "Finish"
-13. Page: Product configueration page 
+13. Page: Product Configuration page 
     Click "Next"
-14. Page: Connect to Server Page :
-    Password : Root
+14. Page: Connect to Server,
+    Password : root
     Click "Check"
     When status Running change to Connection Succedd 
     Click "Next"
-15. Page: Apply configuration page 
+15. Page: Apply configuration, 
     Click "Execute"
-16. Page: Product OCnfiguration Page 
+16. Page: Product Configuration, 
     Click "Next"
 17. Page: Installation Complete
     Click "Finish"

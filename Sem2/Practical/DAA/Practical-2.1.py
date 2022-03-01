@@ -2,24 +2,24 @@
 
 # Topic of Practical
 
-n = int(input("Enter the Number of Row: "))
-m = int(input("Enter the number of Columns: "))
+m = int(input("Enter the Number of Row: "))
+n = int(input("Enter the number of Columns: "))
 
-matrix = ""
+matrix = []
 
-for i in range(n):
+for i in range(m):
     data = []
-    for j in range(m):
+    for j in range(n):
         data.append(int(input("> ")))
     matrix.append(data)
 
-for i in range(n):
-    for j in range(m):
+for i in range(m):
+    for j in range(n):
         print(matrix[i][j], end="")
     print()
 
-for i in range(n):
+for i in range(m):
     sum = 0
-    for j in range(m):
+    for j in range(n):
         sum = sum + matrix[i][j]
     print("Sum of Row", i+1, ":", sum)
