@@ -1,4 +1,8 @@
-DBMS
-	Written in : SQL
+# DBMS
+	* DataBase Management System
+	* Written in : SQL
+	* Note
 
-	Practical List:
+## Practical List:
+	1.1. Installation of MySQL
+	

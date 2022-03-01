@@ -1,4 +1,6 @@
 # CS - Computer Science 
+
+## Curriculum
     Curriculum by MU (Mumbai University)
     Modified by College (R. K. Talreja College)
 
