@@ -1,5 +1,9 @@
-## Subject
+## Subjects
+
+Format: 
+0. SUBJECT
 	* Written in : [Programming Language]
+	* Type: Practical, Theory or Both
 
 1. CALCULUS
 	* Written in : R-Programming 
@@ -26,6 +30,7 @@
 	* Type: Practical And Theory
 
 7. E-Commerce:
+	* Written in : <unAvailable>
 	* Type: Theory Only
 
 INDEX..
