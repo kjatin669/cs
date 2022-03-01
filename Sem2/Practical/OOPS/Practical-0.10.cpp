@@ -19,12 +19,12 @@ int main(){
     gross = bs+da+hra+pf;
     net = gross-pf;
 
-    cout<<"DA: "<<da;
-    cout<<"HRA: "<<hra;
-    cout<<"MA: "<<ma;
-    cout<<"PF: "<<pf;
-    cout<<"GROSS: "<<gross;
-    cout<<"NET: "<<net;
+    cout<<"DA: "<<da<<endl;
+    cout<<"HRA: "<<hra<<endl;
+    cout<<"MA: "<<ma<<endl;
+    cout<<"PF: "<<pf<<endl;
+    cout<<"GROSS: "<<gross<<endl;
+    cout<<"NET: "<<net<<endl;
     
     return 0;
 }

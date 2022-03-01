@@ -18,7 +18,8 @@ int main(){
 
     sum = m1+m2+m3;
     average = sum/3;
-
+	cout<<"Sum of All Marks is "<<sum<<endl;
+	cout<<"Average: "<<average<<endl;
     if (average>=75 && average<100){
         cout<<"Distinction";
     }
