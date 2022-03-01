@@ -1,9 +1,9 @@
-## Subjects
+# Subjects
+	Format: 
+	0. SUBJECT
+		* Written in : [Programming Language]
+		* Type: Practical, Theory or Both
 
-Format: 
-0. SUBJECT
-	* Written in : [Programming Language]
-	* Type: Practical, Theory or Both
 
 1. CALCULUS
 	* Written in : R-Programming 
