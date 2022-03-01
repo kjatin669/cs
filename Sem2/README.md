@@ -1,2 +1,3 @@
-Practical : "Uploaded"
-Notes : "Not Defined"
+# Info
+    * Practical : "Uploaded"
+    * Notes : "Not Defined"
