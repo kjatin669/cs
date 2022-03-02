@@ -1,6 +1,6 @@
 # Practical 2
 
-# Topic of Practical
+# Row Sum
 
 m = int(input("Enter the Number of Row: "))
 n = int(input("Enter the number of Columns: "))
@@ -22,4 +22,4 @@ for i in range(m):
     sum = 0
     for j in range(n):
         sum = sum + matrix[i][j]
-    print("Sum of Row", i+1, ":", sum)
+    print("Sum of Row", i+1, "is", sum)
