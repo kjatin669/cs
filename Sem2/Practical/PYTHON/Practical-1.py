@@ -27,8 +27,8 @@ while 1:
         rev = 0
         while (n>0):
             dig = n%10
-            n = rev*10+dig
-        n = n/10
+            n = (rev*10)+dig
+            n = n//10
         print("Reverse of number: ", rev)
     elif choice == 3:
         n = float(input("Enter a Number: "))
@@ -51,8 +51,8 @@ while 1:
         rev = 0
         while (n>0):
             dig = n%10
-            rev = rev*10+dig
-            n = n/10
+            rev = (rev*10)+dig
+            n = n//10
         if (temp==rev):
             print("The Number is Palindrome")
         else:
