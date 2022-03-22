@@ -23,11 +23,11 @@ while 1:
             num = num-1
         print("The Factorial is", fact)
     elif choice == 2:
-        n = input("Enter a Number: ")
+        n = int(input("Enter a Number: "))
         rev = 0
         while (n>0):
             dig = n%10
-            n = (rev*10)+dig
+            rev = (rev*10)+dig
             n = n//10
         print("Reverse of number: ", rev)
     elif choice == 3:

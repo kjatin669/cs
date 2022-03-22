@@ -1,0 +1,68 @@
+AIM : Study of Eulers Method to find the solution of a first order first degree differential equation
+
+Write a Program in R to find solution of a differntial equation using eulers method
+
+euler=function(f, h=1e-7, x0, y0, xfinal){
+i = 1
+N=(xfinal-x0)/h
+x=y=numeric(N+1)
+while(i<=N){
+x[i+1]=x[i]+h
+y[i+1]=y[i]+h*f(x[i], y[i])
+i=i+1
+}
+return(data.frame(X=x, Y=y))
+}
+f=function(x,y){x-y}
+e1=euler(f,h=0.2,x0=0,y0=0,xfinal=1)
+e2=euler(f,x0=0,y0=0,xfinal=1)
+e1;e2[nrow(e2),]
+
+
+
+
+euler=function(f, h=1e-7, x0, y0, xfinal){
+i = 1
+N=(xfinal-x0)/h
+x=y=numeric(N+1)
+while(i<=N){
+x[i+1]=x[i]+h
+y[i+1]=y[i]+h*f(x[i], y[i])
+i=i+1
+}
+return(data.frame(X=x, Y=y))
+}
+f=function(x,y){x+y}
+e1=euler(f,h=0.2,x0=0,y0=1,xfinal=1)
+e2=euler(f,x0=0,y0=1,xfinal=1)
+e1;e2[nrow(e2),]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euler <- function(dy.dx=function(x,y){}, h=1E-7, y0=1, start=0, end=1) {
+nsteps <- (end-start)/h
+ys <- numeric(nsteps+1)
+ys[1] <- y0
+for (i in 1:nsteps) {
+x <- start + (i-1)*h
+ys[i+1] <- ys[i] + h*dy.dx(x,ys[i])
+}
+ys
+}
+dy.dx = function(x,y){3*x-y+8}
+euler(dy.dx, start=0, end=0.5, h=0.1, y0=3)

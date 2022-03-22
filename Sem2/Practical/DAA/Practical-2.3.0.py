@@ -2,8 +2,6 @@
 
 # Diagonal Sum
 
-MAX = 100
-
 def diagonalSum(mat, n):
     principal = 0
     secondary = 0

@@ -1,0 +1,33 @@
+AIM: To Study of derivative of function
+
+Q.1 Write a Program in R to find the derivative of the function
+1. f(x) = x-x³ at x=2
+
+> f = expression(x-x^3)
+> d = D(f, 'x')
+> d
+1 - 3 * x^2
+> d2 = 1 - 3 * 2^2
+> d2
+[1] -11
+
+2. f(x) = x⁴-x³+4x-20 at x=5
+
+> f = expression(x^4-x^3+4*x-20)
+> d = D(f, 'x')
+> d
+4 * x^3 - 3 * x^2 + 4
+> d2 = 4 * 5^3 - 3 * 5^2 + 4
+> d2
+[1] 429
+
+3. f(x) = 69-24x-9x²+2x³ at x=3
+
+> f = expression(69-24*x-9*x^2+2*x^3)
+> d = D(f, 'x')
+> d
+2 * (3 * x^2) - (24 + 9 * (2 * x))
+> d2 = 2 * (3 * 3^2) - (24 + 9 * (2 * 3))
+> d2
+[1] -24
+

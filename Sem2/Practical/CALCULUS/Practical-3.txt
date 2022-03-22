@@ -1,0 +1,11 @@
+mean = 50
+sd = 80
+x = seq(-3.5, 3.5, length=10)*sd*mean
+y = dnorm(x, mean, sd)
+plot(x, y, type="l")
+
+mean = 50
+sd = 84
+x = seq(-3.5, 3.5, length=100)*sd*mean
+y = dnorm(x, mean, sd)
+plot(x, y, type="l")

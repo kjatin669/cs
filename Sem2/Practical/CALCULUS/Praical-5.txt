@@ -1,0 +1,20 @@
+euler <- function(f=function(x,y){}, h=1E-7, y0=1, x0=0, xfinal=1) {
+
+N = (xfinal-x0)/h
+ys = numeric(N+1)
+ys[1] <- y0
+
+for (i in 1:N) {
+x = x0 + (i-1)*h
+ys[i+1] <- ys[i] + h*f(x,ys[i])
+}
+ys
+}
+f = function(x,y){x+y}
+e1=euler(f,h=0.2,x0=0,y0=0,xfinal=1)
+e2=euler(f,x0=0,y0=1,xfinal=1)
+e1;e2[nrow(e2),]  
+
+
+
+euler(f, x0=0, xfinal=1, h=0.2, y0=0)

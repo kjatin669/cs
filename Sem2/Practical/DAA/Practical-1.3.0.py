@@ -14,7 +14,7 @@ def getMax(array, n):
         resMax = max(array[i], resMax)
     return resMax
 
-array = [4, 45, 32, 42, 94, 21, 43, 11]
+array = [45, 32, 42, 4, 94, 21, 43, 11]
 n = len(array)
 
 print(array)

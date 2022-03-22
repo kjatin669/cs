@@ -1,0 +1,42 @@
+AIM: Study of Newtons Method to find approximate solution of an equation
+
+Q. Write a program in R to find approximate roots of number 2, 5 and 9
+
+mysqrt <- function(x, eps=1e-6, itmax=100, verbose=TRUE){
+i=1
+myvector <- vector(mode="numeric", itmax)
+guess <- readline(prompt="Enter your Guess: ")
+guess <- as.numeric(guess)
+myvector[i] <- guess
+while(i<=itmax){
+guess <- (guess+(x/guess))*0.5
+if(abs(guess-myvector[i])<eps)break
+i<-i+1
+myvector[i]<-guess
+}
+myvector[seq(i)]
+}
+
+> mysqrt <- function(x, eps=1e-6, itmax=100, verbose=TRUE){
++ i=1
++ myvector <- vector(mode="numeric", itmax)
++ guess <- readline(prompt="Enter your Guess: ")
++ guess <- as.numeric(guess)
++ myvector[i] <- guess
++ while(i<=itmax){
++ guess <- (guess+(x/guess))*0.5
++ if(abs(guess-myvector[i])<eps)break
++ i<-i+1
++ myvector[i]<-guess
++ }
++ myvector[seq(i)]
++ }
+> mysqrt(2)
+Enter your Guess: 1.4
+[1] 1.400000 1.414286 1.414214
+> mysqrt(5)
+Enter your Guess: 2.2
+[1] 2.200000 2.236364 2.236068
+> mysqrt(9)
+Enter your Guess: 3
+[1] 3

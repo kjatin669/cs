@@ -1,0 +1,62 @@
+P1.01
+
+Hello World
+
+P1.02
+
+Enter the First Number: 23
+Enter the Second Number: 45
+Addition of First Number and Second Number is 68
+
+P1.03
+
+Enter the First Number: 45
+Enter the Second Number: 12
+Maximum: 45
+
+P1.04
+
+Enter the First Number: 45
+Enter the Second Number: 15
+Enter the Third Number: 78
+Minimum: 15
+
+P1.05
+
+Enter the Radius of the Circle: 10
+The Area of Circle is 314 unit
+
+P1.06
+
+Enter the Length of Rectangle: 15
+Enter the Breadth of Rectangle: 23
+Area of Rectangle: 345 unit
+
+P1.07
+
+Enter the Number: 45
+Odd
+
+P1.08
+
+Enter the Number: -3
+Negative
+
+P1.09
+
+Enter the Marks of First Subject: 15
+Enter the Marks of Second Subject: 42
+Enter the Marks of Third Subject: 78
+Sum of All Marks is 135
+Average: 45
+Third Class
+
+P1.10
+
+Enter the Basic Salary: 500
+DA: 150
+HRA: 350
+MA: 50
+PF: 25
+GROSS: 1025
+NET: 1000
