@@ -1,0 +1,36 @@
+CREATE TABLE employee(
+eId int(10),
+eName VARCHAR(20),
+eCity VARCHAR(20),
+eRating CHAR(5)
+);
+
+INSERT INTO employee
+VALUES(001, "MD", "KLY", '2'),
+(002, "AES", "UNR", '3'),
+(003, "RSA", "UNR", '2'),
+(004, "SHA", "DIV", '1')
+;
+
+ALTER TABLE employee
+ADD COLUMN eAge INT(2);
+
+ALTER TABLE employee
+MODIFY eRating INT(2);
+
+ALTER TABLE employee
+DROP COLUMN eRating;
+
+ALTER TABLE employee
+ADD UNIQUE(eId);
+
+ALTER TABLE employee
+RENAME employeeData;
+
+SELECT * FROM employeeData;
+
+TRUNCATE TABLE employeeData;
+
+SELECT * FROM employeeData;
+
+DROP TABLE employeeData;

@@ -2,10 +2,11 @@
 
 #include<iostream>
 using namespace std;
+
 int main(){
-int i=11;
+int i=10;
 do{
-	cout<<i;
+	cout<<i<<endl;
 	i=i-1;
-	}while(i>=10);
+	}while(i>0);
 }
