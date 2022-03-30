@@ -10,6 +10,7 @@ while True:
     elif n==3:
         redir = str(input("Enter the Previous File Name: "))
         rndir = str(input("Enter the New File Name: "))
+        os.rename(redir, rndir)
     elif n==4:
         remove = str(input("Enter the Filename: "))
         os.remove(remove)
@@ -20,7 +21,7 @@ while True:
         f = open(fname, 'w')
         fwrite = str(input("Enter the Content to Writ into the file: "))
         f.write(fwrite)
-        f.close
+        f.close()
     elif n==7:
         fname = str(input("Enter the File Name: "))
         f = open(fname, 'r')

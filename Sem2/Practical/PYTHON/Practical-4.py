@@ -31,4 +31,51 @@ import re
 string = "Global Warming"
 b = []
 print("\n")
-a = re.search
+a = re.search("....$", string)
+print("\n")
+a = re.search("....$", string)
+print(string.replace(a.group(), ""))
+
+import re
+string = "Global Warming"
+b = []
+print("\n")
+a = re.search("....$", string)
+print("\n")
+a = re.search("....", string)
+print(string.replace(a.group(), ""))
+
+
+import re
+string = "Global Warming"
+b = []
+print("\n")
+a = re.search("....$", string)
+print("\n")
+print("\n")
+print(string.find("Wa"))
+
+
+import re
+string = "Global Warming"
+b = []
+a = re.search("....$", string)
+print("\n")
+print("\n")
+print(string.upper())
+
+import re
+string = "Global Warming"
+b = []
+print("\n")
+print("\n")
+print(string)
+a = string.istitle()
+print(a)
+
+import re
+string = "Global Warming"
+b = []
+print("\n")
+print("\n")
+print(string.replace("a", "*"))
